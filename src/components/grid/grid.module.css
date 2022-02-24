@@ -1,0 +1,101 @@
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 0;
+  
+}
+
+.grid__imageBorder {
+  /* border: 3px solid black; */
+  /* height: 400px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 38vmin;
+  height: 38vmin;
+  background: radial-gradient(#fff, #ffff(180, 20%, 99%));
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  border: solid 2vmin rgba(149, 19, 52, 0.788);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid__image_selected {
+  border: none;
+  transform: var(--rotation) var(--horizontalInversion) var(--verticalInversion);
+}
+
+.grid__image {
+  /* border: 3px solid black; */
+  
+  height: 50%;
+  width: 50%;
+  transform: translate(50%, 0%);
+  display: flex;
+  -webkit-filter: var(--filter);
+  filter: var(--filter);
+}
+.btn {
+  background-color: #fdfdfd;
+  border: none;
+  border-radius: 6px;
+  padding: 2vmin 3vmin;
+  transition: background-color 0.3s
+}
+.btn__nord {
+  top: 20%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.btn__est {
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  transform: translate(0, -50%);
+}
+
+.btn__sud {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.btn__ouest {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(0, -50%);
+}
+.btn__norddeg {
+  top: 1%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.btn__estdeg {
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  transform: translate(0, -50%);
+}
+
+.btn__suddeg {
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.btn__ouestdeg {
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translate(0, -50%);
+}
+

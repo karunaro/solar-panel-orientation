@@ -1,0 +1,69 @@
+@import "../App/App.module.css";
+:root {
+  --margin: 1vh 0;
+}
+
+.actionsBar {
+  height: 37vh;
+  width: 6.5vw;
+  position: relative;
+  top: 1vh;
+  right: 350%;
+  padding: 1vh 0;
+  /* border: 0.5vh double var(--actionColor); */
+}
+
+.actionBar__actionsContainer {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.actionsBar__title {
+  color: var(--actionColor);
+  font-family: var(--fontFamily);
+  font-size: 3vh;
+  position: relative;
+  top: 2vh;
+  margin: var(--margin);
+}
+
+.actionsBar__numberField {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: var(--margin);
+}
+
+.actionsBar__rotateIcon {
+  position: relative;
+  left: 0.1vw;
+  top: 1vh;
+  cursor: pointer;
+  margin: var(--margin);
+}
+
+.actionsBar__horizontalFlipIcon {
+  cursor: pointer;
+  position: relative;
+  margin: var(--margin);
+}
+
+.actionsBar__verticalFlipIcon {
+  cursor: pointer;
+  position: relative;
+  margin: var(--margin);
+}
+
+.actionBar__resetIcon {
+  cursor: pointer;
+  position: relative;
+  margin: var(--margin);
+}
+
+.actionBar__filters {
+  position: relative;
+  margin: var(--margin);
+  left: 15px;
+}

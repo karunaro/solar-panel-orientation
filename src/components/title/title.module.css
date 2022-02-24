@@ -1,0 +1,20 @@
+.title {
+  display: flex;
+}
+
+.title__text {
+  /* font-size: 50px; */
+  font-size: 6vh;
+  font-family: "Sofia", Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+.title__helpIcon {
+  position: relative;
+  top: 3.5vh;
+  left: 1vw;
+}
+
+p {
+  margin: 0.5vh;
+}
