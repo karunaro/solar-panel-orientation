@@ -54,7 +54,7 @@
 .btn__est {
   position: absolute;
   top: 50%;
-  right: 30%;
+  right: 20%;
   transform: translate(0, -50%);
 }
 
@@ -68,7 +68,7 @@
 .btn__ouest {
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 20%;
   transform: translate(0, -50%);
 }
 .btn__norddeg {
